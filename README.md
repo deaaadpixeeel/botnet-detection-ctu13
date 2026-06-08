@@ -13,7 +13,7 @@ Para ejecutar los scripts de entrenamiento y evaluación, se requiere Python 3.8
 Instala las dependencias ejecutando:
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Estructura del Repositorio
 
