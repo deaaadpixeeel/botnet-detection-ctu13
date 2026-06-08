@@ -38,9 +38,9 @@ Nota: El Árbol de Decisión reduce la tasa de falsos positivos (FPR) a la mitad
 
 Se requiere Python 3.8+ y las dependencias listadas en el archivo requirements.txt.
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Estructura del Repositorio
  * /data/: Archivos .parquet del dataset CTU-13 (ignorado en Git por peso).
@@ -51,18 +51,18 @@ pip install -r requirements.txt
 ## Ejecución
 Nota importante: Colocar los archivos .parquet del dataset CTU-13 en /data/ antes de ejecutar.
 Para evaluar el Árbol de Decisión:
-bash
+```bash
 cd src/arbol_decision/
 python train.py
 python test.py --escenarios 9 10 13 --no-background
-
+```
 
 Para evaluar el K-Means:
-bash
+```bash
 cd src/kmeans/
 python real_train_kmeans.py
 python real_test_kmeans.py --model ../../models/botnet_kmeans_model.joblib --no-background
-
+```
 
 <a name="english-version"></a>
 # English Version
@@ -88,26 +88,23 @@ Both models operate under strict control conditions to ensure a fair comparison:
 | Decision Tree + R1 + R2 | 97.5 % | 66.5 % | 0.791 | 6.3 % |
 ## Requirements & Installation
 Python 3.8+ is required along with the dependencies in requirements.txt.
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Execution
 Important Note: Place the CTU-13 .parquet files in the /data/ directory before running.
 Decision Tree Execution:
-bash
+```bash
 cd src/arbol_decision/
 python train.py
 python test.py --escenarios 9 10 13 --no-background
-
+```
 
 K-Means Execution:
-bash
+```bash
 cd src/kmeans/
 python real_train_kmeans.py
 python real_test_kmeans.py --model ../../models/botnet_kmeans_model.joblib --no-background
-
-
-
-
 ```
+
