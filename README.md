@@ -1,4 +1,3 @@
-```markdown
 # Botnet Detection Pipeline: K-Means vs Decision Tree
 
 *[English version below](#english-version)*
@@ -15,7 +14,6 @@ Instala las dependencias ejecutando:
 ```bash
 pip install -r requirements.txt
 
-```
 
 ## Estructura del Repositorio
 
@@ -104,6 +102,4 @@ python real_test_kmeans.py
 
 ```
 
-```
 
-```
