@@ -1,18 +1,3 @@
-El análisis de los dos archivos README anteriores revela que utilizaste la librería **seaborn** para generar el mapa de calor (heatmap) de la matriz de confusión. Ese es el único paquete nuevo que falta.
-Aquí tienes el archivo requirements.txt actualizado y completo:
-text
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
-joblib
-fastparquet
-pyarrow
-
-
-A continuación, te presento el **README.md unificado**. He fusionado metodológicamente la información de ambos modelos para que el documento no sea repetitivo (ya que comparten datos, preprocesamiento y reglas) y resalte la naturaleza comparativa de tu proyecto, manteniendo el formato bilingüe y profesional que exige tu rúbrica.
-markdown
 # Botnet Detection Pipeline: K-Means vs Decision Tree
 
 [English version below](#english-version)
