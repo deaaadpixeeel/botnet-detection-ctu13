@@ -1,6 +1,6 @@
 # CTU-13 Dataset
 
-**[🇪🇸 Español]**
+**[Español]**
 
 **IMPORTANTE:** Debido a las políticas y restricciones de tamaño de GitHub, los archivos de captura de tráfico en formato `.parquet` correspondientes al dataset CTU-13 no están incluidos en este repositorio. 
 
@@ -8,7 +8,7 @@ Para replicar el entrenamiento o la evaluación de los modelos, es estrictamente
 
 ---
 
-**[🇬🇧 English]**
+**[English]**
 
 **IMPORTANT:** Due to GitHub's file size limits and policies, the traffic capture files in `.parquet` format corresponding to the CTU-13 dataset are not included in this repository. 
 
